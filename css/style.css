@@ -229,7 +229,7 @@ img {
 }
 
 .team-container {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-list {
@@ -247,7 +247,8 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
-  padding-bottom: 72px;
+  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
 .team-item {
@@ -296,6 +297,8 @@ img {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
+  margin-bottom: 0;
 }
 
 .portfolio-title {
@@ -306,7 +309,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
 .portfolio-name {
@@ -328,8 +331,7 @@ img {
 footer {
   background-color: #2e2f42;
   width: 100%;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 100px 0;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
