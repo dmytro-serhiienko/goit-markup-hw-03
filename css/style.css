@@ -32,6 +32,10 @@ section {
 img {
   display: block;
 }
+
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
 /* end home work 3 */
 
 /* #region Header */
@@ -40,7 +44,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
@@ -97,6 +100,7 @@ img {
   text-decoration: none;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .contact-header {
@@ -221,6 +225,10 @@ img {
   letter-spacing: 0.02em;
 }
 
+.studio-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
 /* SECTION TEAM */
 
 .third {
@@ -248,7 +256,6 @@ img {
   text-transform: capitalize;
 
   margin-bottom: 72px;
-  margin-bottom: 8px;
 }
 
 .team-item {
@@ -267,7 +274,7 @@ img {
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team-position {
@@ -309,7 +316,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .portfolio-name {
@@ -318,6 +325,7 @@ img {
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .portfolio-dsr {
